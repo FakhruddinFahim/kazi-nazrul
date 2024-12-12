@@ -73,9 +73,11 @@
       }
 
       .title {
+        width: 100%;
         display: flex;
         gap: 1rem;
         align-items: center;
+        justify-content: space-evenly;
 
         .web {
           width: fit-content;
@@ -92,6 +94,9 @@
           line-height: 4.8rem;
           font-family: PlayFairDisplay, sans-serif;
           font-size: 3.6rem;
+          @media (max-width: 600px) {
+            font-size: 2rem;
+          }
 
           span {
             display: block;
@@ -198,6 +203,9 @@
           line-height: 6rem;
           font-family: PlayFairDisplay, sans-serif;
           font-weight: bold;
+          @media (max-width: 600px) {
+            font-size: 2rem;
+          }
         }
 
         p {
@@ -253,7 +261,7 @@
     padding-bottom: 4rem;
 
     .location-text {
-      padding: 0 6rem;
+      padding: 0 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -263,6 +271,9 @@
       h2 {
         font-family: PlayFairDisplay, sans-serif;
         font-size: 3rem;
+        @media (max-width: 600px) {
+          font-size: 2rem;
+        }
       }
 
       > p {
@@ -298,6 +309,9 @@
       font-family: PlayFairDisplay, sans-serif;
       font-size: 3rem;
       text-align: center;
+      @media (max-width: 600px) {
+        font-size: 2rem;
+      }
     }
 
     .location-list {
@@ -405,6 +419,9 @@
       font-family: PlayFairDisplay, sans-serif;
       font-size: 3rem;
       text-align: center;
+      @media (max-width: 600px) {
+        font-size: 2rem;
+      }
     }
 
     .separator {
@@ -534,6 +551,11 @@
           justify-content: space-between;
           width: 100%;
 
+          @media (max-width: 600px) {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
           .link-card {
             color: unset;
             text-decoration: none;
@@ -592,6 +614,12 @@
       justify-content: center;
       gap: 1.4rem;
 
+      h2{
+        font-size: 3rem;
+        @media (max-width: 600px) {
+          font-size: 2rem;
+        }
+      }
       a {
         border: 1px white solid;
         text-decoration: none;

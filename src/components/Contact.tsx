@@ -120,7 +120,7 @@ export function Contact() {
     </div>
     <div className={"location"}>
       <div className={"location-text"}>
-        <h2>Visit Out Store</h2>
+        <h2>Visit Our Store</h2>
         <p>
           Visit Our Store and Discover an Extensive Collection of 22K, 18K, and 24K Jewelry:
           Featuring Stunning Designs from Singapore, Qatar, Turkey, and Italy. Whether you're

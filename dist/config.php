@@ -1,5 +1,4 @@
 <?php
-
 $smtp_host = "fakhr.local"; //SMTP Host
 $username = "test@fakhr.local"; //SMTP Username
 $password = "12345678"; //SMTP Password

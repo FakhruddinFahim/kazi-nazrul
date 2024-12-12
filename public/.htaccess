@@ -1,0 +1,2 @@
+RewriteEngine ON
+Redirect 404 /email.html
